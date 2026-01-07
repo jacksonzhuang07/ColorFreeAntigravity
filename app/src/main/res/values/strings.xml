@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ColorFree</string>
+    <string name="accessibility_service_label">ColorFree Monitor</string>
+    <string name="accessibility_service_description">Monitors foreground apps to toggle grayscale mode.</string>
+</resources>

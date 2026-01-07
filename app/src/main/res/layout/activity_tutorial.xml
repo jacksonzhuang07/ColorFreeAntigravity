@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setup Tutorial"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To toggle Grayscale, we need a special permission via ADB."
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+    
+    <TextView
+        android:id="@+id/code_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="adb shell pm grant com.example.colorfree android.permission.WRITE_SECURE_SETTINGS"
+        android:typeface="monospace"
+        android:background="#EEEEEE"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        android:textIsSelectable="true"/>
+
+    <Button
+        android:id="@+id/btn_copy_command"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copy Command"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_gravity="center"/>
+
+    <WebView
+        android:id="@+id/webview_tutorial"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

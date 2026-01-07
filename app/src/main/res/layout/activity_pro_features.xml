@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pro Features"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/streak_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Streak: 0 Days"
+            android:textSize="20sp"
+            android:textColor="#00AA00"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- Schedule Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Focus Schedule"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp"/>
+        
+        <Switch
+            android:id="@+id/switch_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enable Schedule"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="32dp">
+            
+            <Button
+                android:id="@+id/btn_start_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Start: 09:00"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_marginEnd="8dp"/>
+                
+            <Button
+                android:id="@+id/btn_end_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="End: 17:00"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <!-- App Limits Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Limits (Minutes)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter package name to limit (MVP)"
+            android:textSize="12sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/input_limit_pkg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="com.instagram.android"
+            android:inputType="text"/>
+            
+        <EditText
+            android:id="@+id/input_limit_mins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Limit (e.g., 30)"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btn_save_limit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Limit"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        <TextView
+            android:id="@+id/status_pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Pro Active"
+            android:gravity="center"
+            android:layout_marginTop="32dp"/>
+
+    </LinearLayout>
+</ScrollView>
