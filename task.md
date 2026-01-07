@@ -1,0 +1,36 @@
+# Tasks
+
+- [x] Research Android grayscale implementation methods <!-- id: 0 -->
+    - [x] Check `WRITE_SECURE_SETTINGS` permission feasibility <!-- id: 1 -->
+    - [x] Check Accessibility Service overlay feasibility <!-- id: 2 -->
+- [x] Create Implementation Plan <!-- id: 3 -->
+- [x] Initialize Android Project <!-- id: 4 -->
+- [x] Implement Grayscale Service <!-- id: 5 -->
+- [x] Implement App Selection UI <!-- id: 6 -->
+- [x] Verify functionality <!-- id: 7 -->
+- [x] Implement Math Challenge Logic <!-- id: 8 -->
+- [x] Implement Global Color Unlock (Timer) <!-- id: 9 -->
+- [x] Protect Settings with Math Challenge <!-- id: 10 -->
+- [x] UI Overhaul (Minimalist/Aesthetic) <!-- id: 11 -->
+- [x] Integrate Google Play Billing (Subscription) <!-- id: 12 -->
+- [x] Integrate AdMob (Interstitial Ads) <!-- id: 13 -->
+- [x] Link Ads to Math Challenge flow <!-- id: 14 -->
+- [x] Implement Secret Ad-Free Toggle (Dev Mode) <!-- id: 15 -->
+- [x] Add Security Question to Dev Mode <!-- id: 16 -->
+- [x] Implement Analytics Database (Room) <!-- id: 17 -->
+- [x] Update Service to Track Usage Duration <!-- id: 18 -->
+- [x] Create Analytics UI (Charts/Video) <!-- id: 19 -->
+- [x] Create Comprehensive README <!-- id: 20 -->
+- [x] Create Monetization & Marketing Strategy <!-- id: 21 -->
+- [x] Implement Streak System <!-- id: 22 -->
+- [x] Implement Focus Scheduling (Pro) <!-- id: 23 -->
+- [x] Implement App Usage Limits (Pro) <!-- id: 24 -->
+- [x] Update UI for Pro Features <!-- id: 25 -->
+- [x] Implement "Rotate to Unlock" (Physical Friction) <!-- id: 26 -->
+- [x] Implement Data Export (CSV) <!-- id: 27 -->
+- [x] Implement Device Admin (Strict Mode) <!-- id: 28 -->
+- [x] Create Onboarding Tutorial (Video Link) <!-- id: 29 -->
+- [x] Implement Gamification (Points/Tree) <!-- id: 30 -->
+- [x] Implement Shake Challenge <!-- id: 31 -->
+- [x] Implement Infinite Scroll Challenge <!-- id: 32 -->
+- [x] Implement Challenge Randomizer <!-- id: 33 -->
